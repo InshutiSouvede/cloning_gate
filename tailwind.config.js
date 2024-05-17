@@ -9,7 +9,8 @@ module.exports = {
       colors:{
         yellw:'#a18a4d',
         footer:'#333',
-        icon:'#999'
+        icon:'#999',
+        nav:'#fff'
       }
     },
   },
