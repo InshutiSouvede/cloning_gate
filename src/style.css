@@ -1,5 +1,7 @@
 #footer{
-    background-image: url('./images/minerva_01.png');
-    background-size: auto;
+    background-image: url('./images/img_minerva_footer.png');
+    background-size: 50%;
     background-repeat: no-repeat;
+    background-position: -390px -65px;
+    color: #f2f2f2;
 }
