@@ -38,12 +38,48 @@
         </div>
     </div>
     <!-- Navbar2 section -->
-    <div class="grid grid-cols-[20%_70%_10%]  navbar p-5  sm:grid-cols-[20%_80%] xl:grid-cols-[50%_50%] justify-between sticky top-0 z-[100] bg-nav">
-        <div class="sm:hidden text-lg">
+    <div id="navbarsm" class=" hidden grid grid-rows-2 p-5 h-full sticky top-0 z-[100] w-11/12">
+        <div>
+            <div class="flex justify-between  bg-nav px-5">
+                <img class="h-12 cursor-pointer" src="./images/logobig.svg"  alt="">
+                <p onclick="hide()">X</p>            
+            </div>
+            <div class="flex flex-col gap-10 uppercase font-bold">
+                <h1 class="my-auto pt-10 border-b-2 hover:border-b-icon cursor-pointer ">Study</h1>
+                <h1 class="my-auto border-b-2 hover:border-b-icon cursor-pointer ">Reasearch</h1>
+                <h1 class="my-auto border-b-2 hover:border-b-icon cursor-pointer ">Innovate</h1>
+                <h1 class="my-auto border-b-2 hover:border-b-icon cursor-pointer ">Live</h1>
+                <h1 class="my-auto border-b-2 hover:border-b-icon cursor-pointer ">Explore</h1>
+                <div class="search relative flex cursor-pointer">
+                    <input type="text" class=" cursor-pointer my-auto border-2  text-black  bg-transparent font-normal "
+                        placeholder="Search">
+                    <img class="w-5 bottom-3  right-0  absolute" src="./images/search.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="navbarxs" class="ml-10 hidden grid grid-rows-2 p-5 h-full sticky top-0 z-[100] w-11/12">
+        <div>
+            <div class="flex justify-between  bg-nav px-5">
+                <p onclick="hide2()">X</p>   
+                <div class="flex flex-row gap-5">
+                    <h2 class="uppercase cursor-pointer py-2 font-bold hover:text-white  text-slate-400">PT</h2>
+                    <h2 class="uppercase cursor-pointer py-2 font-bold">EN</h2>
+                </div>         
+            </div>
+            <div class="flex flex-col gap-10 uppercase font-bold">
+                <h1 class="my-auto pt-10 border-b-2 hover:border-b-icon cursor-pointer ">About the University</h1>
+                <h1 class="my-auto border-b-2 hover:border-b-icon cursor-pointer ">Faculties</h1>
+            </div>
+        </div>
+    </div>
+    <div id="navbar2" class="grid grid-cols-[20%_70%_10%]  p-5  sm:grid-cols-[20%_80%] xl:grid-cols-[50%_50%] justify-between sticky top-0 z-[100] bg-nav">
+        <div id="pages" onclick="showMore1()" class="sm:hidden text-lg">
             <i class="fa-solid fa-bars"></i>
         </div>
         <img class="h-12 cursor-pointer" src="./images/logobig.svg"  alt="">
-        <div class="sm:hidden text-sm">
+        <div onclick="showMore2()" class="sm:hidden text-sm">
             <i class="fa-solid fa-bars"></i>
         </div>
         <div class="hidden sm:block sm:flex flex-row uppercase font-bold gap-5 justify-evenly">
@@ -114,7 +150,7 @@
         </div>
     </div>
     <!-- News section -->
-    <div class="p-5 xl:px-80 bg-nav my-10 py-16">
+    <div class="p-5 xl:px-80 bg-black/10 my-10 py-16">
         <div class="grid grid-cols-1 sm:grid-cols-2 justify-between mb-10">
             <p class="text-yellw text-4xl">News</p>
             <div class="flex flex-row gap-5 sm:justify-end">
@@ -344,6 +380,7 @@
             <p class="font-light">Accessibility</p>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
