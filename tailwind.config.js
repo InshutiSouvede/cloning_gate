@@ -10,7 +10,8 @@ module.exports = {
         yellw:'#a18a4d',
         footer:'#333',
         icon:'#999',
-        nav:'#fff'
+        nav:'#D5D5D5',
+        news:'#F2F2F2'
       }
     },
   },
