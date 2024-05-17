@@ -37,9 +37,9 @@
         </div>
     </div>
    
-    <div class="navbar p-5  grid grid-cols-2 justify-between sticky bg-gray-200">
+    <div class="navbar p-5  grid grid-cols-[20%_80%] xl:grid-cols-[50%_50%] justify-between sticky bg-gray-200">
         <img class="h-12" src="./images/logobig.svg" alt="">
-        <div class=" flex flex-row uppercase font-bold gap-5 justify-evenly">
+        <div class="flex flex-row uppercase font-bold gap-5 justify-evenly">
             <h1>Study</h1>
             <h1>Reasearch</h1>
             <h1>Innovate</h1>
@@ -59,13 +59,42 @@
                 <p>
                     New Cocument sets out the main strategic goals and priorities to be achieved by the University until 2030
                 </p>
-                <button class="text-black w-max font-bold bg-yellow-400 px-3">See More</button>
+                <button class="text-black w-max font-bold bg-yellow-700 px-3">See More</button>
             </div>
             <div class="flex flex-row justify-between absolute top-1/2 w-full">
                 <img class="h-10 w-10 bg-yellow-700" src="./images/ChevronLeftLittle.svg" alt="">
                 <img class="h-10 w-10 bg-yellow-700" src="./images/ChevronRightLittle.svg" alt="">
             </div>
         </div>
+    </div>
+    <div class="study px-16 xl:px-80 my-10 grid grid-cols-1 gap-5 xl:grid-cols-[30%_70%]">
+        <div>
+            <p class="text-4xl font-light text-yellow-700">Study</p>
+           <h1 class=" mt-8 text-3xl font-semibold">Your future is here!</h1>
+            
+        </div>
+        <p class=" self-center text-lg font-light">Gathering the most complete offer of training programmes in Portugal, the 14 faculties of the U.Porto offer unique conditions to those who want to build an academic path of excellence and properly valued by the labour market.</p>
+    </div>
+    <hr class="h-2 mx-80">
+    <div class="px-80">
+        <h1 class=" my-10 text-3xl font-semibold">Which course are you looking for?</h1>
+        <div class="grid grid-cols-1 gap-5 xl:grid-cols-[70%_30%]">
+            <div class="flex flex-col gap-5">
+                <div class="py-2 w-full border flex flex-row justify-between">
+                    <span class="pt-2">All</span>
+                    <img class="h-10  w-10" src="./images/SolidChevronDownLittleGray.svg" alt="">
+                </div>
+                <input type="text" class="border-2 border-black py-3 w-full" placeholder="Please enter course keywords...">
+                <button class="bg-yellow-700 py-3 w-full text-white hover:bg-white hover:border hover:text-yellow-700">Search</button>
+            </div>
+            <div class="courses flex flex-col gap-3">
+                <p class="text-lg">Coursed from A to Z: </p>
+                <a href="#" class="decoration-black text-lg font-light">Bachelor's and Integreated Master's Degrees</a>
+                <a href="#" class="text-lg font-light" >Master's Degrees</a>
+                <a href="#" class="text-lg font-light" >Doctorates</a>
+            </div>
+        </div>
+        
     </div>
 </body>
 
